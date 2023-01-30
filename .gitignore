@@ -1,0 +1,3 @@
+*.sql
+/vendor/
+/twig_cache

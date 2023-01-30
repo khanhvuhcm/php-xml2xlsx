@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Bold">
+   <Font ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="Fixed">
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="List">
+  <Table>
+   <Column ss:Width="60.75"/>
+   <Column ss:Width="54.75"/>
+   <Column ss:Width="60.75"/>
+   <Column ss:Width="33"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="Bold">
+    <Cell><Data ss:Type="String">Title</Data></Cell>
+    <Cell><Data ss:Type="String">Unit price</Data></Cell>
+    <Cell><Data ss:Type="String">Amount</Data></Cell>
+    <Cell><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">0220/12-507</Data></Cell>
+    <Cell ss:StyleID="Fixed"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Fixed" ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number" /></Cell>
+  </Row>
+  <Row>
+    <Cell><Data ss:Type="String">1803-02-96-507</Data></Cell>
+    <Cell ss:StyleID="Fixed"><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Fixed" ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number" /></Cell>
+  </Row>
+  <Row>
+    <Cell><Data ss:Type="String">0211/11-507</Data></Cell>
+    <Cell ss:StyleID="Fixed"><Data ss:Type="Number">76</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Fixed" ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number" /></Cell>
+  </Row>
+  <Row>
+    <Cell><Data ss:Type="String">2561-96-507</Data></Cell>
+    <Cell ss:StyleID="Fixed"><Data ss:Type="Number">104</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Fixed" ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number" /></Cell>
+  </Row>
+  <Row>
+    <Cell><Data ss:Type="String">2511-93-507</Data></Cell>
+    <Cell ss:StyleID="Fixed"><Data ss:Type="Number">134</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Fixed" ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number" /></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4"/>
+  </Row>
+  <Row>
+    <Cell ss:StyleID="Bold"><Data ss:Type="String">Total:</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Fixed" ss:Formula="=SUM(R2C:R[-2]C)"><Data ss:Type="Number"></Data></Cell>
+  </Row>
+  </Table>
+ </Worksheet>
+</Workbook>
