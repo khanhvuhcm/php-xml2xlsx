@@ -12,6 +12,7 @@ ini_set("session.cache_limiter", "nocache");
 ini_set("session.sid_length","48");
 ini_set("session.sid_bits_per_character", "6");
 ini_set("session.hash_function", "sha256");
+ini_set("session.upload_progress", "enabled");
 
 
 session_start();

@@ -1,3 +1,5 @@
 *.sql
 /vendor/
 /twig_cache
+/public/download/
+/public/upload/
